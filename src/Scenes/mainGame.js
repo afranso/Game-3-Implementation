@@ -134,10 +134,25 @@ class mainGame extends Phaser.Scene {
         this.cameras.main.setZoom(4);
 
         cursors = this.input.keyboard.createCursorKeys();
+
+        this.endGame = this.add.text(my.sprite.player.x, my.sprite.player.y, "", {
+            fontSize: '16px',
+            color: '#ffffff'
+        }).setOrigin(0.5).setVisible(false);
+        
+        this.startText = this.add.text(my.sprite.player.x, my.sprite.player.y, "Collect coins\nto win", {
+            fontSize: '16px',
+            color: '#ff0000'
+        }).setOrigin(0.5).setVisible(true);
     }
 
     update() {
-        if(coins_collected >= coins_needed) {
+        if(coins_collected === coins_needed) {
+            coins_collected += 1;
+            this.endGame.setText("COMPLETE\nRESTARTING... ");
+            this.endGame.setVisible(true);
+        }
+        else if(coins_collected > coins_needed) {
             coins_collected += 1;
         }
         if(coins_collected === 100) {

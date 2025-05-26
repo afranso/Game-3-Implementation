@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "C:/Users/angel/CMPM120/Pathfinder/assets/tiny-town-tileset.tmx",
+    "activeFile": "platformer-level.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -46,8 +46,8 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 185,
-                "y": 147.83333333333334
+                "x": 1987.3333333333333,
+                "y": 117.83333333333334
             }
         },
         "platformer-level.tmx#monochrome_tilemap_transparent_packed": {
@@ -65,13 +65,13 @@
     "map.tileWidth": 16,
     "map.width": 192,
     "openFiles": [
-        "C:/Users/angel/CMPM120/Pathfinder/assets/tiny-town-tileset.tmx"
+        "platformer-level.tmx"
     ],
     "project": "gameMap.tiled-project",
     "property.type": "bool",
     "recentFiles": [
-        "C:/Users/angel/CMPM120/Pathfinder/assets/tiny-town-tileset.tmx",
         "platformer-level.tmx",
+        "C:/Users/angel/CMPM120/Pathfinder/assets/tiny-town-tileset.tmx",
         "C:/Users/angel/CMPM120/TopDownWorld/assets/Tiny Town.tmx"
     ],
     "tileset.embedInMap": true,

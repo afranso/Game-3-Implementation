@@ -35,7 +35,7 @@ let config = {
 }
 
 var coins_collected = 0;
-const coins_needed = 10;
+const coins_needed = 29;
 var cursors;
 var my = {sprite: {}, vfx: {}};
 
