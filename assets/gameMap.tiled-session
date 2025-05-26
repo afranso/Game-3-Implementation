@@ -51,7 +51,8 @@
             }
         },
         "platformer-level.tmx#monochrome_tilemap_transparent_packed": {
-            "scaleInDock": 2
+            "scaleInDock": 2,
+            "scaleInEditor": 1
         }
     },
     "last.exportedFilePath": "C:/Users/angel/CMPM120/PlatformerGame3/assets",

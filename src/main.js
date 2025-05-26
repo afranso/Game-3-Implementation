@@ -34,7 +34,9 @@ let config = {
     scene: [mainGame]
 }
 
+var coins_collected = 0;
+const coins_needed = 10;
 var cursors;
-var my = {sprite: {}};
+var my = {sprite: {}, vfx: {}};
 
 const game = new Phaser.Game(config);
